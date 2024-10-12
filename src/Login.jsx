@@ -83,7 +83,7 @@ function submitdatas()
     }
 
 
-    if (isValid) {
+    if (isValid === true) {
       navigateto("/Navigationbar"); 
     }
 }

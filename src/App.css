@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+
+.titlename{
+  color: #00B074 !important;
+}
+.title{
+  font-size: calc(1.525rem + 3.3vw);
+  color: black;
+  /* color: #fff !important; */
+}
+.nav{
+  text-decoration: none;
+}
+.navlist{
+  text-decoration-line: none;
+  color: whitesmoke;
+}
