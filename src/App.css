@@ -46,9 +46,51 @@
   /* color: #fff !important; */
 }
 .nav{
-  text-decoration: none;
+  text-decoration-line: none;
+  list-style-type: none;
 }
 .navlist{
-  text-decoration-line: none;
-  color: whitesmoke;
+  text-decoration: none;
+  color: black;
+}
+.box{
+  background: rgba(43, 57, 64, .5);
+}
+.body{
+  background-image: url(./Img1);
+  height: 720px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.aboutpage{
+  background-image: url(./Img1);
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}
+.homepagetitle{
+  font-size: 50px;
+  font-weight: bolder;
+}
+.shadow{
+  box-shadow: 0 0 45px rgba(0, 0, 0, .08);
+}
+.helpjob {
+  background-image: -webkit-repeating-radial-gradient(center center, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2) 1px, transparent 1px, transparent 100%);
+  height: 500px;
+}
+.about2{
+  margin-top: 70px;
+}
+.Helptitle{
+  font-size: 45px;
+  font-weight: bold;
+}
+.button{
+  background-color: #00B074;
+  border: #00B074;
+}
+.contactbox{
+  background-color: #EFFDF5 !important;
 }

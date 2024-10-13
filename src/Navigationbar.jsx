@@ -52,10 +52,10 @@ function Navigationbar() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <ul className="d-lg-flex ms-auto d-sm-block ">
-           <li className="me-5 nav"><Link to="/Navbar">HOME</Link></li>
-           <li className="me-5 nav"><Link to="/About">ABOUT</Link></li>
-           <li className="me-5 nav"><Link to="/services">SERVICES</Link></li>
-           <li className="me-5 nav"><Link to="/contact">CONTACT</Link></li>
+           <li className="me-5 nav"><Link to="/Home" className='navlist'>HOME</Link></li>
+           <li className="me-5 nav"><Link to="/About" className='navlist'>ABOUT</Link></li>
+           <li className="me-5 nav"><Link to="/services" className='navlist'>SERVICES</Link></li>
+           <li className="me-5 nav"><Link to="/contact" className='navlist'>CONTACT</Link></li>
          </ul>
          <div className='bg-primary px-5 py-3 border border-dark'><a className='btn '>Post A Job</a></div>
         </Navbar.Collapse>

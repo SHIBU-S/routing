@@ -84,7 +84,7 @@ function submitdatas()
 
 
     if (isValid === true) {
-      navigateto("/Navigationbar"); 
+      navigateto("/Home"); 
     }
 }
 

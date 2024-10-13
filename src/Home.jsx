@@ -36,34 +36,30 @@
 import React from "react";
 import Navigationbar from "./Navigationbar";
 import { Container, Row, Col } from "react-bootstrap";
-import Img1 from './carousel-1.jpg';
+import JobCategory from "./JobCategory";
+import Help from "./Help";
 
-function Navbars() {
+function Home() {
   return (
     <>
       <Navigationbar />
       <Container>
-        <Row>
-          <Col className="position-relative">
-            <img src={Img1} className="img-fluid" alt="Scenic view" />
-            <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center border">
-              <Row className="d-flex justify-content-start text-start p-5">
-                <Col lg={9}>
-                  <h1 className="title">Find The Perfect Job That You Deserve</h1>
-                  <p>Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                  <a className="btn btn-primary px-5 py-3 me-3">Search A Job</a>
-                  <a className="btn btn-primary px-5 py-3">Find A Talent</a>
-                </Col>
-                <Col lg={3}>
-                  
-                </Col>
+        <Row className="body align-items-center text-start">
+          <Col lg={6} md={11} className="position-relative">
+              <Row >
+                  <Col lg={12}><h1 className="homepagetitle text-white">Find The Best Startup Job That Fit You</h1></Col>
+                  <Col lg={12}><p className="text-white">Vero elitr justo clita lorem. Ipsum dolor at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p></Col>
               </Row>
-            </div>
+          </Col>
+          <Col lg={6}>
+          
           </Col>
         </Row>
       </Container>
+      <JobCategory/>
+      <Help/>
     </>
   );
 }
 
-export default Navbars;
+export default Home;
