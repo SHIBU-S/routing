@@ -15,9 +15,9 @@ function About()
                     <Row className=" aboutpage align-items-center p-3">
                         <Col className="text-start">
                             <h1>About Us</h1>
-                            <a href="">HOME<TbSlash /></a>
-                            <a href="">PAGES<TbSlash /></a>
-                            <a href="">CONTACT</a>
+                            <a href="" className="homepagelink">HOME<TbSlash /></a>
+                            <a href="" className="homepagelink">PAGES<TbSlash /></a>
+                            <a href="" className="homepagelink">CONTACT</a>
                         </Col>
                         <Col></Col>
                     </Row>

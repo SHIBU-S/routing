@@ -94,3 +94,7 @@
 .contactbox{
   background-color: #EFFDF5 !important;
 }
+.homepagelink,.contactpagelink{
+  text-decoration: none;
+  color: whitesmoke;
+}

@@ -13,9 +13,9 @@ function Contact()
                     <Row className=" aboutpage align-items-center p-3">
                         <Col className="text-start">
                             <h1>Contact</h1>
-                            <a href="">HOME<TbSlash /></a>
-                            <a href="">PAGES<TbSlash /></a>
-                            <a href="">CONTACT</a>
+                            <a href="" className="contactpagelink">HOME<TbSlash /></a>
+                            <a href="" className="contactpagelink">PAGES<TbSlash /></a>
+                            <a href="" className="contactpagelink">CONTACT</a>
                         </Col>
                         <Col></Col>
                     </Row>

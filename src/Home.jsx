@@ -39,7 +39,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import JobCategory from "./JobCategory";
 import Help from "./Help";
 
-function Home() {
+function Navbars() {
   return (
     <>
       <Navigationbar />
@@ -62,4 +62,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default Navbars;
