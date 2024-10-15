@@ -175,13 +175,18 @@ function Login() {
     const navigateto = useNavigate(); 
     const { state } = useLocation();
     const from = state?.from || { pathname: '/' };
-    const [redirectToReferrer, setRedirectToReferrer] = useState(false);
+    // const [redirectToReferrer, setRedirectToReferrer] = useState(false);
 
+    // const checklogin = () => {
+    //   FakeAuth.authenticate(() => {
+    //       setRedirectToReferrer(true);
+    //       navigateto("/Services"); 
+    //   });
+    // };
     const checklogin = () => {
-      FakeAuth.authenticate(() => {
-          setRedirectToReferrer(true);
-          navigateto("/Home"); 
-      });
+        FakeAuth.authenticate(() => {
+            navigateto(from.pathname); 
+        });
     };
   
 
