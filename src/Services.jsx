@@ -1,26 +1,4 @@
-// import { useEffect } from "react";
-// import { useNavigate,useLocation } from "react-router-dom";
-// import { Login } from './Login';
-// // import Login from "./Login";
-
-
-// const PrivateRoute = ({ children }) => {
-//     const navigate = useNavigate();
-//     const location = useLocation();
-  
-//     useEffect(() => {
-//       if (!fakeAuth.isAuthenticated) {
-//         navigate('/login', {
-//           state: { from: location },
-//           replace: true,
-//         });
-//       }
-//     }, [navigate, location]);
-  
-//     return fakeAuth.isAuthenticated ? children : null;
-//   };
-
-// export default PrivateRoute;
+import React from "react";
 
 
 function Services()
@@ -28,6 +6,7 @@ function Services()
     return(
         <>
             <h2>This is Service Page</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Numquam, porro? Nesciunt aperiam consequatur unde fugiat modi debitis numquam. Nesciunt voluptate, velit atque quae illo ad commodi maiores reprehenderit amet soluta.</p>
         </>
     )
 }
